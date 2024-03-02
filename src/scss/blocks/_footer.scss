@@ -1,0 +1,93 @@
+.footer {
+    height: 543px;
+    &__wrapper {
+        background-color: $main-color;
+        width: 100%;
+        padding: 100px 0 76px 0;
+        
+
+
+    }
+    &__line {
+        height: 1px;
+        width: 1156px;
+        margin: 0 auto;
+        &:nth-child(2) {
+            height: 2px;
+        }
+        background-color: silver;
+    }
+    &-icon {
+        width: 19px;
+        height: 20px;
+        margin-right: 17px;
+        &_social {
+            margin-right: 33px;
+        }
+    }
+    &__informations {
+        width: 1156px;
+        height: 367px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        
+        
+    }
+    &__text {
+        font-size: 70px;
+        font-weight: 900;
+        color: #fff;
+
+    }
+    &__inform {
+        margin-left: 292px;
+        display: grid;
+        grid-template-columns: repeat(2, 192px);
+        grid-template-rows: repeat(4, auto);
+        column-gap: 74px;
+        row-gap: 16px;
+    }
+    &__local {
+        display: flex;
+        &:nth-child(2) {
+            grid-row: 2;
+        }
+    }
+    &__number {
+        display: flex;
+        grid-row: 3;
+        &:nth-child(2) {
+            grid-column: 2;
+        }
+
+    }
+    &__social {
+        grid-row: 4;
+        grid-column: 1/ 4;
+        display: flex;
+        div {
+            margin-right: 33px;
+        }
+    }
+    &__about {
+        width: 1156px;
+        margin: 0 auto;
+        margin-top: 24px;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        &-all {
+            display: flex;
+        }
+        &-text {
+            margin-right: 41px;
+            &:nth-child(3) {
+                margin-right: 20px;
+            }
+        }
+        &-name {
+            text-align: right;
+        }
+    }
+}

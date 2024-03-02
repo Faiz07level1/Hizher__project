@@ -1,0 +1,49 @@
+.study {
+    margin-top: 162px;
+    &__wrapper {
+        height: 570px;
+        background-color: $second-color;
+        position: relative;
+        
+    }
+    &__all {
+
+        padding-top: 100px;
+        width: 524px;
+        margin-left: 181px;
+        margin-top: 100px;
+    }
+
+    &__subheader {
+        
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 34px;       
+    }
+    &__text {
+        margin: 28px 0 38px 0;
+        
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    &__images {
+        position: absolute;
+        top: 47px;
+        left: 682px;
+    }
+    &__img {
+        width: 650px;
+        height: 443px;
+        display: block;
+    }
+    &__arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 662px;
+        display: block;
+        width: 49px;
+        height: 49px;
+    }
+}

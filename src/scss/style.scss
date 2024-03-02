@@ -1,0 +1,42 @@
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+@font-face {
+    font-family: 'Poppins Thin';
+    src: url('../fonts/Poppins-Thin.eot');
+    src: url('../fonts/Poppins-Thin.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Poppins-Thin.woff') format('woff'),
+    url('../fonts/Poppins-Thin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container {
+    width: 1512px;
+    margin: 0 auto;
+}
+
+@import "base/variavles.scss";
+
+
+@import "blocks/text";
+@import "blocks/title";
+@import "blocks/bloc";
+@import "blocks/nav";
+@import "blocks/header";
+@import "blocks/video";
+@import "blocks/button";
+@import "blocks/complex";
+@import "blocks/skills";
+@import "blocks/team";
+@import "blocks/process";
+@import "blocks/study";
+@import "blocks/purpose";
+@import "blocks/portfolio";
+@import "blocks/question";
+@import "blocks/footer";

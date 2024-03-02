@@ -1,0 +1,60 @@
+.header {
+    width: 100%;
+    min-height: 498px;
+    background-color: $second-color;
+    padding: 60px 79px 21px 185px;
+    &__wrapper {
+        display: grid;
+        column-gap: 98px;
+        grid-template-rows: 402px;
+        grid-template-columns: 440px 710px;
+    }
+    &__text {
+        margin-top: 45px;
+
+        &-subheader {
+            margin-top: 10px;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0px;
+            text-align: left;
+
+        }
+        &-line {
+            margin-top: 60px;
+            width: 86px;
+            height: 2px;
+            background-color: $main-color;
+
+        }
+        &-advantages {
+            margin-top: 38px;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 21px;
+            letter-spacing: 0px;
+            text-align: left;
+        }
+    }
+    &__images {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        
+    }
+    &__img {
+        &-first {
+            width: 100%;
+            height: 100%;
+        }
+        &-second {
+            width: 464px;
+            height: 292px;
+            position: absolute;
+            left:75px;
+            top: -15px;
+
+        }
+    }
+}

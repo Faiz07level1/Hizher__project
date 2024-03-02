@@ -1,0 +1,45 @@
+.nav {
+    
+    
+    height: 101px;
+    &__all {
+        padding: 33px 60px 0 60px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__name {
+        font-size: 26px;
+
+    }
+    &__wrapper {
+        height: 35px;
+        display: grid;
+        grid-template-columns: repeat(6, minmax(20px, auto));
+        column-gap: 35px;
+        align-items: center;
+    }
+    &__text {
+        
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 24px;
+        &_home {
+            font-weight: 700;
+        }
+        &_button {
+            display: flex;
+            align-items: center;
+            font-size: 11px;
+            background-color: $main-color;
+            width: 127px;
+            border-radius: 8px;
+            height: 100%;
+            color: #fff;
+            display: flex;
+            span {
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+.button {
+    display: flex;
+    align-items: center;
+    width: 229px;
+    height: 43px;
+    border-radius: 8px;
+    background-color: $main-color;
+    span {
+        display: block;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0px;
+        text-align: center;
+        margin:  auto;
+        color: #fff;
+
+    }
+    
+
+}

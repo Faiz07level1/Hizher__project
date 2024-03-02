@@ -1,0 +1,35 @@
+.complex {
+    margin-top: 144px;
+    min-height: 615px;
+    &__wrapper {
+        min-height: 615px;
+        position: relative;
+        padding-top: 100px;
+        margin-left: 368px;
+        background-color: $second-color;
+        img {
+            position: absolute;
+            top: 56px;
+            left: -325px;
+        }
+    }
+    &__all {
+        
+        margin-left: 456px;
+        display: grid;
+        grid-template-columns: 461px;
+        row-gap: 38px;
+        // grid-template-rows: repeat(3, minmax(43px, auto));
+    }
+    // &__header {
+
+    // }
+    &__text {
+        
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+
+    }
+}

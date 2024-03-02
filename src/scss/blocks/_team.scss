@@ -1,0 +1,40 @@
+.team {
+    height: 585px;
+    margin-top: 144px;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 758px 754px;
+        height: 100%;
+        background-color: $second-color;
+    }
+    &__inform {
+        padding: 112px 0 0 198px;
+        height: 361px;
+        width: 625px;
+        &-header {
+            line-height: 46px;
+        }
+        &-employes {
+            display: flex;
+            margin: 50px 0;
+            width: 423px;
+            justify-content: space-between;
+        }
+        
+    }
+    &-number {
+        
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 64px;
+    }
+    &-name {
+        
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 27px;
+
+
+    }
+
+}
